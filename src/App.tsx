@@ -5,7 +5,7 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './pages/Home';
 import Weddings from './pages/Weddings';
-// import Birthdays from './pages/Birthdays';
+import Birthdays from './pages/Birthdays';
 import Gallery from './pages/Gallery';
 import Contact from './pages/Contact';
 import Cursor from './components/Cursor';
@@ -20,7 +20,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/weddings" element={<Weddings />} />
-            {/* <Route path="/birthdays" element={<Birthdays />} /> */}
+            <Route path="/birthdays" element={<Birthdays />} />
             <Route path="/gallery" element={<Gallery />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
